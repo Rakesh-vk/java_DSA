@@ -1,0 +1,17 @@
+public class prac{
+	public static void main(String args[]) {
+		//Check weather string is palindrome or not
+		String str="gadag",reverse="";
+		for(int i=str.length()-1;i>=0;i--) {
+			reverse=reverse+str.charAt(i);
+		}
+		if(str.equals(reverse)) {
+			System.out.println("Palindrome");
+			
+		}
+		else {
+			System.out.println("not palindrome");
+		}
+		
+	}
+}
